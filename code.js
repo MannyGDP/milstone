@@ -24,6 +24,8 @@ function boxClicked(e) {
       playerText = `${currentPlayer} has won!`
       let winning_blocks = playerHasWon()
 
+      winning_blocks.map(box => boxes[box].style.backgroundColor=winnerIndicator)
+      return
     }
 
     currentPlayer = currentPlayer == X_TEXT ? O_TEXT : X_TEXT
@@ -58,6 +60,7 @@ function restart() {
 
   boxes.forEach( box => {
     box.innerText = ''
+    box.style.backgroundColor=''
   })
 
   playerText = 'Tic Tac Toe'

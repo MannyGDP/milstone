@@ -1,0 +1,22 @@
+{
+  "name": "milstone",
+  "version": "1.0.0",
+  "description": "Web searched game description online. I will follow this structure",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MannyGDP/milstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MannyGDP/milstone/issues"
+  },
+  "homepage": "https://github.com/MannyGDP/milstone#readme",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
